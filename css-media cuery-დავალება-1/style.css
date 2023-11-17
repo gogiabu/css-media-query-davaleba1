@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Open sans;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"open sans" ;
+    src: url("OpenSans-Regular.ttf");
+}
+.image{
+    width: 469px;
+    height: 832px;
+    background-image: url(photo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    position: relative;
+    display: inline-block;
+}
+.foni{
+    background-color: rgba(0, 0, 0, 0.15); 
+    width: 445px;
+    height: 808px;
+    margin: 12px;
+    position: absolute;
+}
+.box{
+    width: 325px;
+    height: 151px;
+    padding: 36px;
+}
+.pixelonium{
+    width: 240.7px;
+    height: 49px;
+}
+.text{
+    color: #FFF;
+    width: 325px;
+    height: 78px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+.container{
+    width: 340px;
+    height: 387px;
+    margin-top: 230px;
+    margin-left: 249px;
+    align-items: center;
+    align-items: center;
+    display: inline-block;
+    position: absolute;
+}
+.section1{
+    width:340px;
+    height: 49px;
+}
+.striqoni1{
+    color:#1F2937;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+.striqoni2{
+    color: #6B7280;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+.section2{
+    width: 340px;
+    height: 48px;
+    display: flex;
+    margin-top: 36px;
+    align-items: center;
+    justify-content: space-between;
+}
+.button{
+    width: 281px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #4285F4;
+    border: none;
+    display: flex;
+    color:#FFF;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    gap: 42px;
+    padding: 2px;
+}
+.google{
+    width: 43px;
+    height: 43px;
+}
+.facebook{
+    background-color: #ECF2FC;
+    width: 45px;
+    height: 48px;
+    margin: 2px;
+}
+.section3{
+    height: 1px;
+    width: 340px;
+    background-color:#E5E7EB; 
+    margin-top: 24px;
+}
+.section4{
+    width: 340px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #E5E7EB;
+    background: #FFF;
+    margin-top: 24px;
+    background-image: url("at-symbol.svg");
+    background-repeat: no-repeat;
+    background-size: 48px 48px;
+    padding-left: 53px;
+}
+::placeholder{
+    color: #D1D5DB;
+    font-size: 14px;
+    font-weight: 600;
+}
+.section5{
+    width: 340px;
+    height: 32px;
+    padding: 6px;
+    align-items: center;
+    margin-top: 12px;
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 600;
+}
+.click{
+    color: #6D58BA;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 4px;
+}
+.section6{
+    width: 340px;
+    height: 48px;
+    border-radius: 6px;
+    border: none;
+    background-color: #724DFF;
+    text-align: center;
+    color:#FFF;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.section7{
+    width: 331px;
+    height: 26px;
+    margin-top: 12px;
+    align-items: center;
+    text-align: center;
+    color:#6B7280;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.support{
+    color: #6D58BA;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 4.5px;
+}
+@media only screen and (max-width: 426px) {
+    .container{
+        width:100% !important;
+        height: 520px !important;
+        padding: 24px !important;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+        display: flex;
+        justify-content: center;
+        background-color: #FFF !important;
+    }
+    .image{
+        display: none !important;
+    }
+    .section1{
+        text-align: center !important;
+    }
+    .facebook{
+        border-radius: 50px;
+    }
+    .section3{
+        display: none;
+    }
+    .section4{
+        border-radius: 50px;
+        border: 1px solid #E5E7EB;
+    }
+    .section6{
+      width: 121px !important;
+      height: 48px !important;
+     margin-left: 119.5px !important;
+    }
+    .section7{
+        display: block !important;
+        text-align: left !important;
+    }
+}
